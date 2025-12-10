@@ -70,9 +70,14 @@ result = await fund_info_index_em(
 ## 安装配置
 
 ```shell
-
-cd stock-mcp
+git clone https://github.com/yaohaowei0914/akshare_mcp.git
+cd akshare_mcp
 uv sync
+```
+
+运行服务器:
+```shell
+python stock_server_lite.py
 ```
 
 配置Cline MCP:
