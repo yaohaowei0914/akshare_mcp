@@ -1033,4 +1033,4 @@ async def fund_hk_rank_em(condition: str = None) -> pd.DataFrame:
 if __name__ == "__main__":
     
     # 启动MCP服务
-    mcp.run()
+    mcp.run(transport="sse")
