@@ -78,15 +78,7 @@ uv sync
 配置Cline MCP:
 ```json
 "stock_mcp": {
-  "autoApprove": [],
-  "disabled": false,
-  "timeout": 60,
-  "command": "uv",
-  "args": [
-    "--directory",
-    "path\\to\\your\\code",
-    "run",
-    "stock_server_lite.py"
-  ],
-  "transportType": "stdio"
+  "url": "http://127.0.0.1:8000/sse",
+  "transport": "sse"
 }
+```
